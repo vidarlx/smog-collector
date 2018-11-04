@@ -1,0 +1,39 @@
+{
+  "name": "smog-collector",
+  "version": "1.0.0",
+  "description": "Collector of data sent by sds011 sensor",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.ts",
+    "test": "mocha --compilers ts:ts-node/register,tsx:ts-node/register src/**/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghanto/smog-collector.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghanto/smog-collector/issues"
+  },
+  "homepage": "https://github.com/ghanto/smog-collector#readme",
+  "devDependencies": {
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.12.2",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.5",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "djv": "^2.1.1",
+    "express": "^4.16.4",
+    "knex": "^0.15.2",
+    "lodash": "^4.17.11",
+    "pg": "^7.5.0",
+    "sinon": "^7.1.1",
+    "uuid": "^3.3.2"
+  }
+}
