@@ -1,5 +1,4 @@
 import { expect } from 'chai';
-import sinon from 'sinon';
 
 import reader from './reader';
 const validResponse = require('../test/fixtures/api/valid_response.json');
